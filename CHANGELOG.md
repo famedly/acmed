@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Manual (and badly designed) threads have been replaced by async.
 - Randomized early delay, for spacing out renewals when dealing with a lot of certificates.
 - Replaced the template engine TinyTemplate with MiniJinja.
+- Reworked rate-limits, now with scopes for API paths and ACME resources.
 
 
 ## [0.21.0] - 2022-12-19
